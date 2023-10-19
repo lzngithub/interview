@@ -9,70 +9,70 @@
 5. 怎么理解 Fiber 架构？
 6. Fiber 的性能优化是怎么理解的？
 7. React 中 diff 算法是什么？
-8. 解释一下 React 的生命周期方法？
-9. 使用 React Hooks 有哪些要注意的地方？
-10. 什么是 React 的 Context API，它用于什么场景？
-11. 如何实现一个简单的 React Redux 应用？
-12. Redux 在 React 中如何使用？
-13. 你能解释一下 React 的不可变性原则吗？
-14. 如何在 React 应用中实现数据流（数据流图）？
-15. React 路由是什么？如何在 React 应用中使用它？
-16. 如何处理在 React 中的异步操作？
-17. 在 React 中如何实现延迟加载（懒加载）和代码拆分？
-18. 在 React 应用中如何实现全局状态管理？
-19. Redux 与 MobX 的主要区别是什么？你更倾向于使用哪种？为什么？
-20. 在 React 中如何使用并比较不同的状态管理库（如 Redux，MobX 等）？
-21. 如何创建可重用的 React 组件？
-22. 在大型 React 应用中，如何进行组件的测试和调试？
-23. 在 React 中如何使用和比较不同的路由库（如 react-router，react-router-dom 等）?
-24. 你如何理解 React 的函数组件和类组件的区别，你更倾向于使用哪一种，为什么？
-25. 在 React Hooks 中，useState 和 useEffect 的主要区别是什么？
-26. 在 React 中，如何处理多线程和并发问题？
-27. React Concurrent 模式是什么？它有哪些特点？
-28. 在 React 中，如何使用和比较不同的状态管理库（如 Redux，MobX 等）？
-29. 你能解释一下 React 的错误边界（Error Boundaries）吗？
-30. Error Boundaries 在 React 中如何使用？
-31. 在 React 中如何使用事件处理函数(Event Handling Functions)?
-32. 什么是事件代理(Event Delegation)?
-33. 在 React 中如何使用和比较不同的状态管理库（如 Redux、MobX、Zustand 等）?
-34. 你能解释一下 React 的“props in, props out”原则吗？
-35. 在 React 组件中，何时应该使用状态(state)和何时应该使用属性(props)？
-36. React Hooks 和类组件相比有什么优点和缺点？
-37. 如何优化 React 应用的性能？
-38. React 与 Vue 的主要区别是什么？
-39. 如何在 React 应用中实现国际化(i18n)和本地化(l10n)？
-40. React Testing Library 是什么，以及如何使用它进行单元测试和集成测试？
-41. React Hooks 和 React Classes 的主要区别是什么？
-42. 什么是 React 的“Context API”，如何使用它？
-43. 在大型 React 应用中，如何管理和组织组件代码？
-44. 如何使用 React Router 进行路由管理？
-45. React 和 Flux, Redux 的关系是什么？
-46. 什么是 React 的“Props 查漏补缺”？
-47. 在 React 中如何处理大量数据，以及优化渲染性能？
-48. 你能解释一下 React 的“纯组件(Pure Components)”是什么，以及它们如何工作吗？
-49. 如何使用 React Hooks 实现“useState”的初始值设定？
-50. React Concurrent Mode 是什么，它与传统的 React 应用有何不同？
-51. 你能解释一下 React 的“Hook Composition”吗？
-52. 如何使用 React Router v5 实现程序化导航(Programmatic Navigation)？
-53. 在 React 中如何处理文件上传和下载？
-54. 你能解释一下 React 的“副作用(Side Effects)”以及如何使用 useEffect 来处理它们吗？
-55. 如何使用 React 中的 useReducer Hook 来实现应用状态管理？
-56. 你能解释一下 React 的 useCallback Hook 和 useMemo Hook 吗？它们在什么情况下使用？
-57. 在大型 React 项目中，如何管理和优化组件的性能？
-58. 你能解释一下 React 的 useRef Hook 吗？它在什么情况下使用？
-59. 在 React 中如何使用和比较不同的状态管理库（如 Redux、MobX、Zustand 等）?
-60. 你能解释一下 React Hooks 的" Memoization "概念吗?
-61. 如何在 React 中实现服务器端渲染(Server-Side Rendering, SSR)？
-62. React Hooks 和函数组件与类组件相比有哪些优缺点？
-63. 你能解释一下 React 的 useImperativeHandle Hook 吗？它有什么作用？
-64. 在 React 应用中如何处理与应用逻辑相关的全局状态？
-65. 如何使用 React Router v5 实现嵌套路由(Nested Routes)？
-66. React Hooks 和 React Classes 相比有什么优点和缺点？
-67. 什么是 React 的状态(State)，它有什么重要性？
-68. 在 React 应用中如何正确地使用 props 和 state？
-69. 什么是 React 的上下文(Context)，以及它如何被使用？
-70. 在 React 应用中如何正确地使用和避免使用全局状态？
-71. 什么是 React 的组件生命周期，以及它如何被使用？
+8. 在 React 组件中，何时应该使用状态(state)和何时应该使用属性(props)？
+9. 什么是 React 的组件生命周期，生命周期方法常用的有哪些，以及它如何被使用？
+10. 触发状态更新得方法有哪些，这个状态更新的方法是同步的还是异步的？
+11. 使用 React Hooks 有哪些要注意的地方？
+12. 什么是 React 的 Context API，它用于什么场景？
+13. 如何实现一个简单的 React Redux 应用？
+14. Redux 在 React 中如何使用？
+15. 你能解释一下 React 的不可变性原则吗？
+16. 如何在 React 应用中实现数据流（数据流图）？
+17. React 路由是什么？如何在 React 应用中使用它？
+18. 如何处理在 React 中的异步操作？
+19. 在 React 中如何实现延迟加载（懒加载）和代码拆分？
+20. 在 React 应用中如何实现全局状态管理？
+21. Redux 与 MobX 的主要区别是什么？你更倾向于使用哪种？为什么？
+22. 在 React 中如何使用并比较不同的状态管理库（如 Redux，MobX 等）？
+23. 如何创建可重用的 React 组件？
+24. 在大型 React 应用中，如何进行组件的测试和调试？
+25. 在 React 中如何使用和比较不同的路由库（如 react-router，react-router-dom 等）?
+26. 你如何理解 React 的函数组件和类组件的区别，你更倾向于使用哪一种，为什么？
+27. 在 React Hooks 中，useState 和 useEffect 的主要区别是什么？
+28. 在 React 中，如何处理多线程和并发问题？
+29. React Concurrent 模式是什么？它有哪些特点？
+30. 在 React 中，如何使用和比较不同的状态管理库（如 Redux，MobX 等）？
+31. 你能解释一下 React 的错误边界（Error Boundaries）吗？
+32. Error Boundaries 在 React 中如何使用？
+33. 在 React 中如何使用事件处理函数(Event Handling Functions)?
+34. 什么是事件代理(Event Delegation)?
+35. 在 React 中如何使用和比较不同的状态管理库（如 Redux、MobX、Zustand 等）?
+36. 你能解释一下 React 的“props in, props out”原则吗？
+37. React Hooks 和类组件相比有什么优点和缺点？
+38. 如何优化 React 应用的性能？
+39. React 与 Vue 的主要区别是什么？
+40. 如何在 React 应用中实现国际化(i18n)和本地化(l10n)？
+41. React Testing Library 是什么，以及如何使用它进行单元测试和集成测试？
+42. React Hooks 和 React Classes 的主要区别是什么？
+43. 什么是 React 的“Context API”，如何使用它？
+44. 在大型 React 应用中，如何管理和组织组件代码？
+45. 如何使用 React Router 进行路由管理？
+46. React 和 Flux, Redux 的关系是什么？
+47. 什么是 React 的“Props 查漏补缺”？
+48. 在 React 中如何处理大量数据，以及优化渲染性能？
+49. 你能解释一下 React 的“纯组件(Pure Components)”是什么，以及它们如何工作吗？
+50. 如何使用 React Hooks 实现“useState”的初始值设定？
+51. React Concurrent Mode 是什么，它与传统的 React 应用有何不同？
+52. 你能解释一下 React 的“Hook Composition”吗？
+53. 如何使用 React Router v5 实现程序化导航(Programmatic Navigation)？
+54. 在 React 中如何处理文件上传和下载？
+55. 你能解释一下 React 的“副作用(Side Effects)”以及如何使用 useEffect 来处理它们吗？
+56. 如何使用 React 中的 useReducer Hook 来实现应用状态管理？
+57. 你能解释一下 React 的 useCallback Hook 和 useMemo Hook 吗？它们在什么情况下使用？
+58. 在大型 React 项目中，如何管理和优化组件的性能？
+59. 你能解释一下 React 的 useRef Hook 吗？它在什么情况下使用？
+60. 在 React 中如何使用和比较不同的状态管理库（如 Redux、MobX、Zustand 等）?
+61. 你能解释一下 React Hooks 的" Memoization "概念吗?
+62. 如何在 React 中实现服务器端渲染(Server-Side Rendering, SSR)？
+63. React Hooks 和函数组件与类组件相比有哪些优缺点？
+64. 你能解释一下 React 的 useImperativeHandle Hook 吗？它有什么作用？
+65. 在 React 应用中如何处理与应用逻辑相关的全局状态？
+66. 如何使用 React Router v5 实现嵌套路由(Nested Routes)？
+67. React Hooks 和 React Classes 相比有什么优点和缺点？
+68. 什么是 React 的状态(State)，它有什么重要性？
+69. 在 React 应用中如何正确地使用 props 和 state？
+70. 什么是 React 的上下文(Context)，以及它如何被使用？
+71. 在 React 应用中如何正确地使用和避免使用全局状态？
 72. 在 React 应用中如何管理全局状态？
 73. 如何在 React 中实现延迟加载(Lazy Loading)？
 74. 什么是 React 的 useCallback，它有什么作用？
@@ -89,16 +89,11 @@
 85. 如何正确地在 React 中使用事件代理(Event Delegation)？
 86. 在 React 应用中如何正确地使用和比较不同的路由库（如 react-router、react-router-dom 等）?
 87. 如何正确地在 React 中使用 useMemo 和 useCallback 来优化性能？
-88. 在 React 应用中如何正确地使用 props 和 state 来管理应用状态？
-89. 如何正确地在 React 中使用 props 和 state 来管理应用状态？
-90. 如何正确地在 React 中使用事件代理(Event Delegation)？
-91. 在 React 应用中如何正确地使用 props 和 state 来管理应用状态？
-92. 如何正确地在 React 中使用 props 和 state 来管理应用状态？
-93. 在 React 应用中如何正确地使用 props 和 state 来管理应用状态？
-94. 你能解释一下 React 的 Hook 吗？它们是做什么用的？
-95. 在 React 中，组件是什么？
-96. 什么是状态(state)在 React 中的重要性？
-97. 什么是 props，它们在 React 中如何使用？
+88. 如何正确地在 React 中使用事件代理(Event Delegation)？
+89. 你能解释一下 React 的 Hook 吗？它们是做什么用的？
+90. 在 React 中，组件是什么？
+91. 什么是状态(state)在 React 中的重要性？
+92. 什么是 props，它们在 React 中如何使用？
 
 ## 答案
 
@@ -184,3 +179,54 @@ Fiber 架构是 React 16 新的架构。为了解决老结构不能满足 React 
 3. key 不同时，不会复用
 
 通过优化算法，React diff 的算法复杂度降低到了 O(n)。
+
+## 8. 在 React 组件中，state 和 props 是什么？何时应该使用状态(state)和何时应该使用属性(props)？
+
+在 React 中，state 指的是组件内部维护的一个状态，它可以存储组件的数据，控制组件的行为和渲染。当 state 发生改变的时候，React 会自动重新渲染组件，以反映出最新的状态。
+
+React 中的 props 是一个 JavaScript 对象，它是组件之间通信的一种方式，是调用方传递给组件的数据和配置信息的一种机制。props 是只读的，用于从外部传递数据给组件。
+
+使用原则，对于组件的状态管理，应优先使用内部状态，是组件之间达到高内聚，低耦合，同时具体使用时机要根据业务，优化等因素综合考虑后再决定。
+
+得分点：
+
+- state：内部状态，改变 React 会自动重新渲染。
+- props：从外部传递数据给组件，组件通信得一种机制。
+- 使用原则：尽可以使用 state，低耦合，高内聚，同时灵活根据业务调整。
+
+## 9. 什么是 React 的组件生命周期，生命周期方法常用的有哪些，以及它如何被使用？
+
+React 的组件生命周期是指组件从被创建到被销毁的过程，包括组件的初始化、更新、卸载等阶段。在 React 中，组件的生命周期主要分为三个阶段：挂载阶段、更新阶段、卸载阶段。
+
+组件的生命周期方法是指 React 为组件在不同的生命周期阶段提供的特殊方法，以便开发者可以在这些阶段更好地控制组件的行为。这些方法包括：
+
+- 挂载阶段：组件被创建并执行初始化，然后被挂载到 DOM 中，完成第一次渲染。这个阶段可以调用的方法有 constructor 和 componentDidMount。constructor 用于在组件被创建时进行 state 的初始化和绑定事件处理方法等工作，而 componentDidMount 则用于在组件被挂载到 DOM 后执行一些操作，如网络请求等。
+- 更新阶段：当组件的 props 或 state 发生变化，或者组件进行重渲染时。这个阶段可以调用的方法有 static getDerivedStateFromProps、render、getSnapshotBeforeUpdate 和 componentDidUpdate。getDerivedStateFromProps 用于在 props 变化时更新组件的 state，render 用于重新渲染组件，getSnapshotBeforeUpdate 用于在组件重新渲染前捕获一些快照，componentDidUpdate 则用于在组件更新后执行一些操作，如重新渲染等。
+- 卸载阶段：当组件从 DOM 中被卸载时。这个阶段可以调用的方法有 componentWillUnmount，用于执行一些必要的清理工作，如网络请求的取消，dom 监听事件得取消等。
+
+总之，React 的组件生命周期和生命周期方法为开发者提供了在组件不同阶段更好地控制组件行为的能力，可以在组件挂载、更新、卸载等阶段进行必要的操作，从而提升 React 应用的性能和体验。
+
+得分点：
+
+- 组件从被创建到被销毁的过程，分为：挂载阶段、更新阶段、卸载阶段。function 组件没有实例，也就没有对应的生命周期。
+- 不同的生命周期阶段提供的特殊方法，以便开发者可以在这些阶段更好地控制组件的行为，从而提升 React 应用的性能和体验。
+- 三个阶段常用得周期方法(按顺序展示)：
+  - 挂载阶段（4 个）：constructor(props)、static getDerivedStateFromProps(nextProps, prevState)、render()、componentDidMount();
+  - 更新阶段（5 个）：static getDerivedStateFromProps(nextProps, prevState)、shouldComponentUpdate(nextProps, nextState)、render()、getSnapshotBeforeUpdate(prevProps, prevState)、componentDidUpdate(prevProps, prevState, snapshot)
+  - 销毁阶段（1 个）：componentWillUnmount()
+
+## 10. 触发状态更新得方法有哪些，这个状态更新的方法是同步的还是异步的？
+
+在 React 中触发状态更新的方法有下面五种：
+
+- ReactDOM.render()
+- this.setState()
+- this.forceUpdate()
+- useState()
+- useReducer()
+
+状态更新的方法本身执行不是异步的，是因为其批处理机制给人一种异步的假象。
+
+生命周期函数和合成事件中：其批处理机制给人一种异步的假象。
+
+原生事件和异步代码中：原生事件不会触发 react 的批处理机制,异步代码等待同步代码执行完毕再执行,因而直接更新。
